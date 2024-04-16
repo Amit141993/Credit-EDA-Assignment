@@ -11,10 +11,12 @@ When the company receives a loan application, the company has to decide for loan
 
 1. If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
 2. If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+
 The data given below contains the information about the loan application at the time of applying for the loan. It contains two types of scenarios:
 
 1. The client with payment difficulties: he/she had late payment more than X days on at least one of the first Y instalments of the loan in our sample,
 2. All other cases: All other cases when the payment is paid on time.
+
 When a client applies for a loan, there are four types of decisions that could be taken by the client/company):
 
 1. Approved: The Company has approved loan Application
@@ -23,14 +25,14 @@ When a client applies for a loan, there are four types of decisions that could b
 4. Unused offer: Loan has been cancelled by the client but on different stages of the process.
 In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
-Business Objectives
+**Business Objectives**
 This case study aims to identify patterns which indicate if a client has difficulty paying their instalments which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc. This will ensure that the consumers capable of repaying the loan are not rejected. Identification of such applicants using EDA is the aim of this case study.
 
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilise this knowledge for its portfolio and risk assessment.
 
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics - understanding the types of variables and their significance should be enough).
 
-Data Understanding
+**Data Understanding**
 Download the dataset from the link below.
 https://drive.google.com/open?id=16RQztUqCfJOlbooHqYlJrp6Q7iL65uZB
 
